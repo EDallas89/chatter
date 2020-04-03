@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Chatter",
+    'name': "Chatter for Bank Statements",
     'summary': """
-        Añade un Chatter al Formulario de los Diarios del Modulo de Facturación""",
-    'author': "EDallas",
+        Añade las funciones de mensajería, planificación de actividades, 
+        archivos adjuntos y seguidores en los extractos bancarios.""",
+    'author': "Inma Sánchez",
     'website': "https://github.com/EDallas89",
-    'category': 'Uncategorized',
+    'category': 'Gestión de facturación',
     'version': '12.0',
     'depends': ['base', 'account'],
     'data': [
