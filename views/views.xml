@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-  <record id="chatter.view_journal_form_chatter" model="ir.ui.view">
-    <field name="name">account.journal.form.chatter</field>
-    <field name="model">account.journal</field>
-    <field name="inherit_id" ref="account.view_account_journal_form" />
+  <record id="chatter.view_bank_statement_form_chatter" model="ir.ui.view">
+    <field name="name">account.bank.statement.form.chatter</field>
+    <field name="model">account.bank.statement</field>
+    <field name="inherit_id" ref="account.view_bank_statement_form" />
     <field name="arch" type="xml">
       <xpath expr="//sheet" position="after">
         <div class="oe_chatter">
